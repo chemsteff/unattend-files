@@ -1,0 +1,102 @@
+# unattend-files
+
+
+https://schneegans.de/windows/unattend-generator/
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Region and language settings:
+ 1. Select language settings interactively during Windows Setup
+ 2. Using these language settings:
+    a. Display menus:     German
+    b. Format dates:      German (Switzerland)
+    c. Keyboard layout:   Swiss German
+    d. Country or Region: Switzerland
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Processor architectures:
+ 1. Intel/AMD 64-bit
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Setup settings:
+ 1. Bypass Windows 11 requirements check (TPM, Secure Boot, etc.)
+ 2. Allow Windows 11 to be installed without internet connection
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Computer name:
+ 1. Let Windows generate a random computer name like DESKTOP-ZFAH8Z2
+ 2. Choose a computer name yourself
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Time zone:
+ 1. Let Windows determine your time zone based on language and region settings
+ 2. Set your time zone explicitly
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Partitioning and formatting:
+ 1. Partition the disk interactively during Windows Setup or use existing partition
+ 2. Let Windows Setup wipe, partition and format your hard drive (more specifically, disk 0) using these settings:
+   a. For UEFI: GPT, EFI size 1024 MB
+	 b. Remove Windows RE
+	 c. Install Windows to the first available partition that has enough space and does not already contain an installation of Windows
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Windows edition:
+ 1. Use a generic product key
+ 2. Install professional edition of Windows:
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+User accounts:
+ 1. Let Windows Setup create the following local accounts:
+   a. Account Name share
+   b. Password:
+   c. Group:
+ 2. Add user accounts interactively during Windows Setup
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Password expiration:
+ 1. Passwords do not expire
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Account Lockout policy:
+ 1. Use default policy
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Optimizations:
+ 1. Disable Windows Defender
+ 2. Disable System Protection / System Restore
+ 3. Enable long paths
+ 4. Enable Remote Desktop services (RDP)
+ 5. Harden ACLs (Removes write permissions on C:\ for the Authenticated Users group)
+ 6. Allow execution of PowerShell script files
+ 7. Do not update Last Access Time stamp
+ 8. Do not reboot with users signed in
+ 9. Turn off system sounds
+ 10. Disable app suggestions
+ 11. Disable widgets
+ 12. Audit process creation events
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+WLAN / Wi-Fi setup:
+ 1. Configure Wi-Fi interactively during Windows Setup
+ 2. Skip Wi-Fi configuration
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Express questions during setup:
+ 1. Choose settings interactively during Windows Setup
+ 2. Disable all (Windows will not send diagnostic data, personalized input or your location history to Microsoft. Choose this if you value privacy)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Remove bloatware:
+ 1. Removed during Windows Setup:
+- 3D Viewer            Calculator      Camera                Clipchamp
+- Clock                Copilot         Cortana               Dev Home
+- Family               Feedback Hub    Get Help              Internet Explorer
+- Mail and Calendar    Maps            Math Input            Panel  
+- Movies & TV          News            Notepad (classic)     Notepad (modern)
+- Office 365           OneDrive        OneNote               OpenSSH Client
+- Outlook for Windows  Paint           Paint 3D              People
+- Photos               Power Automate  PowerShell ISE        Quick Assist
+- Skype                Snipping Tool   Solitaire Collection  Steps Recorder
+- Sticky Notes         Teams           Tips                  To Do Voice Recorder
+- Windows Terminal     Weather         WordPad               Windows Media Player (modern)
+- Your Phone           Xbox Apps       Windows Media Player (classic)
