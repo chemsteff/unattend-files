@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unattend xmlns="urn:schemas-microsoft-com:unattend" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State">
-	<!--
-  Region and language settings:
-    a. Display menus:     German
-    b. Format dates:      German (Switzerland)
-    c. Keyboard layout:   Swiss German
-    d. Country or Region: Switzerland
-  Setup settings:
-    a. Bypass Windows 11 requirements check
-    b. Allow Windows 11 to be installed without internet connection
-  Computer name:
-    a. Windows generate a random computer name like DESKTOP-ZFAH8Z2
-  Partitioning and formatting:
-    a. Partition interactively during Windows Setup
-  User accounts:
-    a. Add user accounts interactively during Windows Setup
-  Password expiration:
-    a. Passwords do not expire 
-  Optimizations:
-    a. None
-  WLAN / Wi-Fi setup:
-    a. Configure Wi-Fi interactively during Windows Setup
-  Express questions during setup:
-    a. Disable all (Windows will not send diagnostic data, personalized input or your location history to Microsoft.
-  Remove bloatware:
-     a. None
+  <!--
+        Region and language settings:
+          a. Display menus:     German
+          b. Format dates:      German (Switzerland)
+          c. Keyboard layout:   Swiss German
+          d. Country or Region: Switzerland
+        Setup settings:
+          a. Bypass Windows 11 requirements check
+          b. Allow Windows 11 to be installed without internet connection
+        Computer name:
+          a. Windows generate a random computer name like DESKTOP-ZFAH8Z2
+        Partitioning and formatting:
+          a. Partition interactively during Windows Setup
+        User accounts:
+          a. Add user accounts interactively during Windows Setup
+        Password expiration:
+          a. Passwords do not expire 
+        Optimizations:
+          a. None
+        WLAN / Wi-Fi setup:
+          a. Configure Wi-Fi interactively during Windows Setup
+        Express questions during setup:
+          a. Disable all (Windows will not send diagnostic data, personalized input or your location history to Microsoft.
+        Remove bloatware:
+          a. None
   -->
 	<settings pass="offlineServicing"></settings>
 	<settings pass="windowsPE">
