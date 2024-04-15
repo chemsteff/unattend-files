@@ -7,7 +7,7 @@
        - Using these computer name: Random
        - Partitioning and formatting:  GPT, EFI size 1024 MB, remove Windows RE, first available partition.
        - Windows edition: Windows Pro for Workstations
-       - User accounts: VMZser
+       - User accounts: VMUser
        - User password: 
        - Password expiration: Never
        - Optimizations: Yes
